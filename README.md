@@ -8,3 +8,19 @@ Please note that there is no intention for this package to implement all of Vim'
 This package is designed with minimal use cases where vim navigation and alteration of text is required, without the advanced functionality like
 commands, macros, etc.
 
+## Implemented
+
+### Normal Mode
+
+-   `h`
+-   `j`
+-   `k`
+-   `l`
+-   `w`
+-   `b`
+-   `e`
+
+### Insert Mode
+
+### Visual Mode
+

@@ -1,18 +1,25 @@
 {
     "name": "vim-minjs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/willumz/vim-minjs.git"
+    },
     "scripts": {
         "build": "tsc",
         "docs": "typedoc",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "keywords": [],
     "author": "Will Rycroft",
     "license": "MIT",
     "devDependencies": {
+        "@types/jest": "^27.4.1",
+        "jest": "^27.5.1",
+        "ts-jest": "^27.1.4",
         "typedoc": "^0.22.15",
         "typescript": "^4.6.3"
     }
